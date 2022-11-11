@@ -30,4 +30,4 @@ Balancer's WeightedPools are based on an [N-dimensional invariant surface](https
 With this mechanism, needs of both Liquidity Providers and Traders are served:
 
 * Liquidity Providers collect trading fees, while the their portfolio is continuously rebalanced
-* Traders gain access to an open, decentralized exchange that never closes, allowing them to swap what and when they like for low fees
+* Traders gain access to an open, decentralized exchange that never closes, allowing them to swap what and when they like for low fees.
