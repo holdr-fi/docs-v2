@@ -1,9 +1,9 @@
 # Oracles (deprecated)
 
 {% hint style="warning" %}
-## Oracles have been deprecated.
+### Oracles have been deprecated.
 
-### Why?
+#### Why?
 
 1. **Limitations**
    * Oracles only exist in two-token pools, while many of the primary pools (like bb-a-USD) on Balancer have 3 or more tokens. Supporting multi-token pools requires tracking all possible pairs, which scales combinatorially `O(nC2)`.
@@ -13,13 +13,13 @@
 3. **Maintenance Burden**
    * The oracle is a complex piece of functionality that bogs us down when developing other features. Known external use of our oracles is limited so the cost/benefit trade-off is not there.
 
-### What does this mean?
+#### What does this mean?
 
-Pool factories deployed after mid-2022 will not have oracle functionality. Pre-existing pool factories that _do_ have oracle function can not be disabled. Therefore, it is and always will be possible, though inadvisable, to deploy pools that have oracles. Any pre-existing pools that do have oracles cannot be disabled. Using these pools as oracles is highly discouraged. Discouraging the use of oracles in these pools does not imply any additional safety concerns with other operations such as joining, exiting, or swapping.&#x20;
+Pool factories deployed after mid-2022 will not have oracle functionality. Pre-existing pool factories that _do_ have oracle function can not be disabled. Therefore, it is and always will be possible, though inadvisable, to deploy pools that have oracles. Any pre-existing pools that do have oracles cannot be disabled. Using these pools as oracles is highly discouraged. Discouraging the use of oracles in these pools does not imply any additional safety concerns with other operations such as joining, exiting, or swapping.
 
-Anyone is able to design their own pool that interacts with Balancer. There is a possibility that a team will build a custom pool that acts as an oracle provider. They may be correct and/or implement novel safety/algorithmic improvements, but use these price feeds at your own risk.&#x20;
+Anyone is able to design their own pool that interacts with Balancer. There is a possibility that a team will build a custom pool that acts as an oracle provider. They may be correct and/or implement novel safety/algorithmic improvements, but use these price feeds at your own risk.
 
-### This page below will be kept as a technical and historical reference. There is a strike-through for all text since there may be links to sub-sections of this page.
+#### This page below will be kept as a technical and historical reference. There is a strike-through for all text since there may be links to sub-sections of this page.
 {% endhint %}
 
 {% hint style="info" %}
@@ -44,14 +44,16 @@ Anyone is able to design their own pool that interacts with Balancer. There is a
 
 ~~Querying Instantaneous Price is a low gas operation useful for applications where price manipulation is not of great concern. These queries can be done using:~~
 
-* ~~~~[~~`getLatest`~~](https://dev.balancer.fi/references/contracts/apis/pools/weightedpool2tokens#getlatest)~~~~
+* ```
+  ```
 * ~~``~~[~~`getPastAccumulators`~~](https://dev.balancer.fi/references/contracts/apis/pools/weightedpool2tokens#getpastaccumulators)~~``~~
 
 ## ~~Time Weighted Average Price~~
 
 ~~Oracles can be queried for a Time Weighted Average within time frames ranging from a minimum of 2 minutes to a maximum of \~34.1 hours. These queries can be done using:~~
 
-* ~~~~[~~`getTimeWeightedAverage`~~](https://dev.balancer.fi/references/contracts/apis/pools/weightedpool2tokens#gettimeweightedaverage)~~``~~
+* ```
+  ```
 
 ### ~~Calculating TWAP~~
 
@@ -59,7 +61,7 @@ Anyone is able to design their own pool that interacts with Balancer. There is a
 
 ### ~~The Accumulator~~
 
-~~Price data for each sample is kept within an accumulator.~~&#x20;
+~~Price data for each sample is kept within an accumulator.~~
 
 ![](<../.gitbook/assets/Untitled (1).png>)
 

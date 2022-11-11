@@ -97,11 +97,3 @@
 * [Forums](https://forum.balancer.finance/)
 * [Medium](https://medium.com/balancer-protocol)
 * [Dune Analytics](https://duneanalytics.com/projects/balancer)
-
-## Developers (Deprecated) <a href="#developers" id="developers"></a>
-
-* [⛔ !!! DEPRECATED !!! ⛔](developers/deprecated.md)
-* [Guides](developers/guides/README.md)
-  * [Pool Verification](developers/guides/pool-verification.md)
-* [Smart Order Router V2](developers/smart-order-router.md)
-* [GitHub](https://github.com/balancer-labs/)
