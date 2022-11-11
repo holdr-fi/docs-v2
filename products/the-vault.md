@@ -5,9 +5,13 @@ coverY: 0
 
 # The Vault
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
-The Vault is the core of Balancer; it is a smart contract that holds and manages all tokens in each Balancer pool. It is also the portal through which most Balancer operations (swaps/joins/exits) take place.&#x20;
+The Vault is the core of Balancer; it is a smart contract that holds and manages all tokens in each Balancer pool. It is also the portal through which most Balancer operations (swaps/joins/exits) take place.
 
 ## Separating Token Accounting and Pool Logic
 
@@ -25,7 +29,7 @@ In other Decentralized Exchanges where token accounting is paired with pool logi
 
 #### Internal Balances
 
-Taking the concept of minimizing token transfers one step further, it's actually possible to execute swaps with no token transfers whatsoever. Similar to how the Vault maintains token balances for pools, it can also maintain balances for arbitrary Ethereum addresses. Users can hold **Internal Balances** in the Vault and execute trades to/from these balances.&#x20;
+Taking the concept of minimizing token transfers one step further, it's actually possible to execute swaps with no token transfers whatsoever. Similar to how the Vault maintains token balances for pools, it can also maintain balances for arbitrary Ethereum addresses. Users can hold **Internal Balances** in the Vault and execute trades to/from these balances.
 
 ## Security
 
@@ -35,4 +39,4 @@ It's crucial to note that the Vault is designed to keep pool balances strictly i
 
 While the consolidated liquidity in the Vault does not change price impact on a per-pool basis, it does enable Balancer Protocol to leverage that combined liquidity by offering Flash Loans. Flash Loans are uncollateralized loans that must be repaid (with interest) in the same transaction as it is borrowed. Since everything must be completed in a single transaction, there are codified guarantees that make it impossible for borrowers to run away with the tokens.
 
-Further, anyone who identifies a price discrepancy in two Balancer Pools can execute a **Flash Swap**. **** An arbitrageur who makes a flash swap does not need to hold any of the input tokens that one would normally need to make a trade. Instead, the trader identifies the imbalance, tells the Vault to make the swap, and is rewarded with the profit.
+Further, anyone who identifies a price discrepancy in two Balancer Pools can execute a **Flash Swap**. \*\*\*\* An arbitrageur who makes a flash swap does not need to hold any of the input tokens that one would normally need to make a trade. Instead, the trader identifies the imbalance, tells the Vault to make the swap, and is rewarded with the profit.
