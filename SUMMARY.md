@@ -8,18 +8,9 @@
 * [The Vault](products/the-vault.md)
 * [Balancer Pools](products/balancer-pools/README.md)
   * [Weighted Pools](products/balancer-pools/weighted-pools.md)
-  * [Stable Pools](products/balancer-pools/stable-pools.md)
-  * [MetaStable Pools](products/balancer-pools/metastable-pools.md)
   * [Composable Stable Pools](products/balancer-pools/composable-stable-pools.md)
   * [Liquidity Bootstrapping Pools (LBPs)](products/balancer-pools/liquidity-bootstrapping-pools-lbps.md)
-  * [Managed Pools](products/balancer-pools/managed-pools.md)
-  * [Boosted Pools](products/balancer-pools/boosted-pools.md)
-  * [Custom Pools](products/balancer-pools/custom-pools.md)
 * [Smart Order Router](products/smart-order-router.md)
-* [Merkle Orchard](products/merkle-orchard/README.md)
-  * [Claiming Tokens](products/merkle-orchard/claiming-tokens.md)
-  * [Creating Distributions](products/merkle-orchard/creating-distributions.md)
-* [Balancer CoW Protocol](products/balancer-cow-protocol.md)
 
 ## Concepts
 
@@ -64,35 +55,20 @@
 * [Emergency Pause](security/emergency-pause.md)
 * [Token Compatibility](security/token-compatibility.md)
 
-## Governance Initiatives <a href="#gov-initiatives" id="gov-initiatives"></a>
-
-* [BAL for Gas](gov-initiatives/bal-for-gas.md)
-* [Liquidity Mining](gov-initiatives/liquidity-mining/README.md)
-  * [Liquidity Mining Estimates API](gov-initiatives/liquidity-mining/liquidity-mining-estimates-api.md)
-
 ## Getting Started
 
 * [FAQs](getting-started/faqs/README.md)
   * [Swapping](getting-started/faqs/swapping.md)
   * [Liquidity](getting-started/faqs/liquidity.md)
   * [Liquidity Mining with the veBAL and Gauge System](getting-started/faqs/liquidity-mining-with-the-vebal-and-gauge-system.md)
-  * [Liquidity Mining (Legacy)](getting-started/faqs/liquidity-mining.md)
   * [Fees](getting-started/faqs/fees.md)
   * [Governance](getting-started/faqs/governance.md)
   * [The Vault](getting-started/faqs/the-vault.md)
   * [Pools and LBPs](getting-started/faqs/pools-and-lbps.md)
   * [Asset Managers](getting-started/faqs/asset-managers.md)
   * [Oracles](getting-started/faqs/oracles.md)
-  * [About Balancer Protocol and Labs](getting-started/faqs/about-balancer-protocol-and-labs.md)
   * [V2 in a Nutshell](getting-started/faqs/v2-in-a-nutshell.md)
   * [V1 ➝ V2 Migration](getting-started/faqs/v1-to-v2-migration.md)
 * [Walkthroughs](getting-started/walkthroughs/README.md)
   * [Trade](getting-started/walkthroughs/trading.md)
   * [Invest](getting-started/walkthroughs/invest.md)
-
-## Community
-
-* [Discord](https://discord.balancer.fi)
-* [Forums](https://forum.balancer.finance/)
-* [Medium](https://medium.com/balancer-protocol)
-* [Dune Analytics](https://duneanalytics.com/projects/balancer)

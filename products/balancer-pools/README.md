@@ -23,11 +23,11 @@ Some pools (WeightedPool2Tokens and MetaStable Pools) have optional Oracle funct
 
 Designed for general cases, including tokens that don't necessarily have price correlation (ex. DAI/WETH).
 
-### [Stable Pools](stable-pools.md)
+### [Stable Pools](broken-reference)
 
 Ideal for soft-pegged tokens with strong correlation (ex. DAI/USDC/USDT).
 
-### [MetaStable Pools](metastable-pools.md)
+### [MetaStable Pools](broken-reference)
 
 Built for non-pegged tokens that maintain correlation but may slowly diverge over time, such as derivatives (ex. stETH/WETH).
 
@@ -35,7 +35,7 @@ Built for non-pegged tokens that maintain correlation but may slowly diverge ove
 
 Ideal for shifting liquidity of one token into another (ex. AKITA/ETH).
 
-### [Managed Pools](managed-pools.md)
+### [Managed Pools](broken-reference)
 
 Designed to have extreme flexibility to manage a dynamic fund. Features weight shifting to rebalance, swap pausing, and management fees. (ex. WSBDapp).
 

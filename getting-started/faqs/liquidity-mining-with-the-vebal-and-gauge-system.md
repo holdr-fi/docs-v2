@@ -2,9 +2,9 @@
 
 ## How does liquidity mining in the Gauge system work?
 
-With the introduction of the tokenomics revamp to [veBAL](https://docs.balancer.fi/ecosystem/vebal-and-gauges/vebal) and the introduction of [gauges](https://docs.balancer.fi/ecosystem/vebal-and-gauges/gauges), the liquidity mining mechanics on Balancer changed drastically compared to the [legacy system](liquidity-mining.md#how-does-liquidity-mining-on-balancer-work). The new system involves staking of liquidity provider positions in the official gauges that are eligible to receive incentives.
+With the introduction of the tokenomics revamp to [veBAL](https://docs.balancer.fi/ecosystem/vebal-and-gauges/vebal) and the introduction of [gauges](https://docs.balancer.fi/ecosystem/vebal-and-gauges/gauges), the liquidity mining mechanics on Balancer changed drastically compared to the [legacy system](broken-reference). The new system involves staking of liquidity provider positions in the official gauges that are eligible to receive incentives.
 
-You can see which pools receive liquidity mining incentives by the 3 star icon next to the pool position on [https://app.balancer.fi/#/](https://app.balancer.fi/#/) :&#x20;
+You can see which pools receive liquidity mining incentives by the 3 star icon next to the pool position on [https://app.balancer.fi/#/](https://app.balancer.fi/#/) :
 
 ![Example of a gauge receiving BAL incentives as well as other incentives as well as swap fees indicated on the tooltip when hovering over the 3 star symbol](<../../.gitbook/assets/image (1).png>)
 

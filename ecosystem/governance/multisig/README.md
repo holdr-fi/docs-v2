@@ -33,11 +33,11 @@ Beyond the current signers, the community shall keep a short, ordered list of po
 
 {% tabs %}
 {% tab title="Ethereum" %}
-### Address
+#### Address
 
 [0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f](https://etherscan.io/address/0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f)
 
-### Signers
+#### Signers
 
 * [Alexander Lange](https://twitter.com/AlexLangeVC) (Inflection)
 * [Ernesto](https://mobile.twitter.com/eboadom) (Bored Ghosts Developing)
@@ -51,7 +51,7 @@ Beyond the current signers, the community shall keep a short, ordered list of po
 * [Trent McConaghy](https://twitter.com/trentmc0) (Ocean Protocol)
 * [0xMaki](https://twitter.com/0xMaki)
 
-### Future Signer Short-List
+#### Future Signer Short-List
 
 {% hint style="info" %}
 Every so often, multisig signers are rotated out if they request to leave the multisig or do not fulfill their [Signer Duties](./#signer-duties). This is a list of replacement candidates should current signers be removed.
@@ -67,11 +67,11 @@ Every so often, multisig signers are rotated out if they request to leave the mu
 {% endtab %}
 
 {% tab title="Polygon" %}
-### Address
+#### Address
 
 [0xd2bD536ADB0198f74D5f4f2Bd4Fe68Bae1e1Ba80](https://polygonscan.com/address/0xd2bD536ADB0198f74D5f4f2Bd4Fe68Bae1e1Ba80)
 
-### Signers
+#### Signers
 
 * [fabien](https://twitter.com/bonustrack87) (Snapshot Labs)
 * [solarcurve](https://twitter.com/0xsolarcurve) (Baller)
@@ -83,11 +83,11 @@ Every so often, multisig signers are rotated out if they request to leave the mu
 {% endtab %}
 
 {% tab title="Arbitrum" %}
-### Address
+#### Address
 
 [0x6207ed574152496c9B072C24FD87cE9cd9E17320](https://arbiscan.io/address/0x6207ed574152496c9B072C24FD87cE9cd9E17320)
 
-### Signers
+#### Signers
 
 * [fabien](https://twitter.com/bonustrack87) (Snapshot Labs)
 * [solarcurve](https://twitter.com/0xsolarcurve) (Baller)
@@ -99,11 +99,11 @@ Every so often, multisig signers are rotated out if they request to leave the mu
 {% endtab %}
 
 {% tab title="Optimism" %}
-### Address
+#### Address
 
 [0x043f9687842771b3dF8852c1E9801DCAeED3f6bc](https://optimistic.etherscan.io/address/0x043f9687842771b3dF8852c1E9801DCAeED3f6bc)
 
-### Signers
+#### Signers
 
 * [Alexander Lange](https://twitter.com/AlexLangeVC) (Inflection)
 * [Ernesto](https://mobile.twitter.com/eboadom) (Bored Ghosts Developing)
