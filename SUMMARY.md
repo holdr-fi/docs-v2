@@ -20,7 +20,6 @@
   * [Claiming Tokens](products/merkle-orchard/claiming-tokens.md)
   * [Creating Distributions](products/merkle-orchard/creating-distributions.md)
 * [Balancer CoW Protocol](products/balancer-cow-protocol.md)
-* [Oracles (deprecated)](products/oracles.md)
 
 ## Concepts
 

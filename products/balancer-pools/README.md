@@ -5,13 +5,17 @@ coverY: 0
 
 # Balancer Pools
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
 Pools are the fundamental building blocks of the Balancer Protocol; they are smart contracts that define how traders can swap between tokens on Balancer. What makes Balancer Pools unique from those of other protocols is their limitless flexibility. While other exchanges have pools with constrained parameters, Balancer can accommodate pools of any composition and underlying math. Balancer's architecture allows for anyone to develop their own pool type, opening the door for customized pricing functions in trading pools.
 
 ## Oracle Functionality
 
-Some pools (WeightedPool2Tokens and MetaStable Pools) have optional Oracle functionality. This means that they can be used as sources of on-chain price data.&#x20;
+Some pools (WeightedPool2Tokens and MetaStable Pools) have optional Oracle functionality. This means that they can be used as sources of on-chain price data.
 
 ## Pools At A Glance
 

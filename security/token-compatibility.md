@@ -1,5 +1,9 @@
 # Token Compatibility
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
 Some tokens are not compatible with Balancer because of how they interact with the Vault.

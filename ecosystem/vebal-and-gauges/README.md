@@ -1,9 +1,13 @@
 # veBAL and Gauges
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 The veBAL and Gauge system is designed to promote long-term token-holder alignment, decentralize Liquidity Mining allocation, and facilitate fair protocol revenue distribution. This system is based heavily on Curve's veCRV system.
 
 {% hint style="info" %}
-Looking for data from Gauges? Gauge Data lives in the [Balancer-Gauges Subgraph](https://thegraph.com/hosted-service/subgraph/balancer-labs/balancer-gauges).&#x20;
+Looking for data from Gauges? Gauge Data lives in the [Balancer-Gauges Subgraph](https://thegraph.com/hosted-service/subgraph/balancer-labs/balancer-gauges).
 {% endhint %}
 
 ## veBAL Overview
@@ -16,7 +20,7 @@ veBAL (vote-escrow BAL) is a vesting and yield system based on [Curve’s veCRV 
 
 ## Gauges Overview
 
-Gauges are a class of contracts that determine how Liquidity Mining (LM) is allocated.&#x20;
+Gauges are a class of contracts that determine how Liquidity Mining (LM) is allocated.
 
 There are a few Gauge Types to handle a few scenarios; some Gauge Types require voting with veBAL to give specific Gauges a higher weighting, while others are fixed-amount distribution channels. These per-Gauge-Type amounts can be changed by Governance vote.
 

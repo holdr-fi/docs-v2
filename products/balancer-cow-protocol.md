@@ -2,6 +2,10 @@
 
 ![](<../.gitbook/assets/Screen Shot 2021-11-02 at 2.25.01 PM.png>)
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
 The Balancer CoW Partnership (BCP) is the default trade interface on [app.balancer.fi](https://app.balancer.fi). Users of BCP can benefit from:

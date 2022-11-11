@@ -1,10 +1,14 @@
 # Governance
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
-Balancer Governance is the heart and brain of Balancer Protocol.&#x20;
+Balancer Governance is the heart and brain of Balancer Protocol.
 
-Anyone can be part of the Balancer Governance Process, and anyone with BAL voting power can vote on proposals. Governance makes decisions about new features and directions of where the Balancer Protocol should go. Governance is the ultimate decision body for the Balancer Protocol; no one can override vote results.&#x20;
+Anyone can be part of the Balancer Governance Process, and anyone with BAL voting power can vote on proposals. Governance makes decisions about new features and directions of where the Balancer Protocol should go. Governance is the ultimate decision body for the Balancer Protocol; no one can override vote results.
 
 ## [Governance Process](governance-process/)
 

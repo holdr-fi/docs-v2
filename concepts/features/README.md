@@ -1,5 +1,9 @@
 # Features
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
 ### Flash Loans
@@ -13,13 +17,13 @@ Flash Loans are uncollateralized loans that must be repaid (with interest) in th
 ### Asset Managers
 
 {% hint style="info" %}
-**Coming soon**! \
+**Coming soon**!\
 There are also new pool types in development that achieve the capital efficiency goals of Asset Managers in a manner that concentrates liquidity better, while requiring less maintenance. The first solutions will likely be released in that form.\
 \
 The original asset manager architecture can be used for cases where tokens need to be removed from a pool (e.g., for voting, or staking).
 {% endhint %}
 
-Asset Managers improve the capital efficiency of trading pools by reinvesting idle assets. Typical trading pools with deep liquidity benefit only from low slippage, but tokens not involved in trades do not contribute to the fees accrued by the pool. Asset Managers tap into that otherwise idle capital, using it on external protocols.&#x20;
+Asset Managers improve the capital efficiency of trading pools by reinvesting idle assets. Typical trading pools with deep liquidity benefit only from low slippage, but tokens not involved in trades do not contribute to the fees accrued by the pool. Asset Managers tap into that otherwise idle capital, using it on external protocols.
 
 {% content-ref url="asset-managers.md" %}
 [asset-managers.md](asset-managers.md)

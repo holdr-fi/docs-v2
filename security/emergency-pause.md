@@ -1,5 +1,9 @@
 # Emergency Pause
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 The Balancer V2 Vault and WeightedPool contracts have an emergency pause mechanism which can be activated within the first three months of mainnet operation. After three months, the mechanism cannot be activated by anyone, including the Balancer Governance Multisig and Balancer Labs. After three months, Balancer V2 becomes unstoppable.
 
 The emergency pause is only meant to be activated in the event of a serious vulnerability being discovered which puts user funds at risk. During the pause, all trading is halted and liquidity can no longer be _added_ to the Vault, but **liquidity can always be removed by users**, even while the protocol is paused. Pausing does not grant anyone, including the Balancer Governance Multisig or Balancer Labs, direct access to user funds. It simply creates a safe environment in which funds can be withdrawn and any potential attack on the protocol can be mitigated.
@@ -12,9 +16,7 @@ The emergency pause period ended on July 18, 2021. The Vault and WeightedPools a
 
 ## The Emergency subDAO
 
-
-
-The [Emergency DAO](https://dao.curve.fi/emergencymembers) is an idea pioneered by Curve that empowers a small group to “kill” pools and gauges **in the** **event of malicious activity and/or potential loss of funds.** The Balancer emergency subDAO was established after the [following vote](https://vote.balancer.fi/#/proposal/0x63fab7ab9ef5b9579dabb82058b8ea309e39c766d435438b55fff8db7c1f69fd).&#x20;
+The [Emergency DAO](https://dao.curve.fi/emergencymembers) is an idea pioneered by Curve that empowers a small group to “kill” pools and gauges **in the** **event of malicious activity and/or potential loss of funds.** The Balancer emergency subDAO was established after the [following vote](https://vote.balancer.fi/#/proposal/0x63fab7ab9ef5b9579dabb82058b8ea309e39c766d435438b55fff8db7c1f69fd).
 
 The Emergency subDAO is a 4-of-7 multisig with the following members:
 
@@ -29,4 +31,3 @@ The Emergency subDAO is a 4-of-7 multisig with the following members:
 Gnosis safe address: `0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888`
 
 An additional power of the Emergency subDAO will be to add a token to the deny list on the newly created “[ProtocolFeesWithdrawer](https://forum.balancer.fi/t/introduce-protocolfeeswithdrawer/3188)” contract. In order for a token to be added back to the allow list a veBAL governance vote would be required. A token would only be added to the deny list in the event of an issue along the lines of the recent [Synthetix bug disclosure](https://forum.balancer.fi/t/medium-severity-bug-found/3161).
-

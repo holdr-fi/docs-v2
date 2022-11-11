@@ -5,7 +5,9 @@ coverY: 0
 
 # Smart Order Router
 
-
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
 
 ## Overview
 
@@ -15,7 +17,7 @@ The Smart Order Router (SOR) finds the best prices for Balancer traders. For giv
 
 ## Utilize All the Liquidity!
 
-As the variety of [Balancer Pools](broken-reference) grows, the SOR grows too! The SOR keeps expanding as  new pool types that use different math under the hood are added. This ensures that all pools in the Balancer ecosystem can support trades. By integrating with the SOR, any custom pool built on Balancer can benefit from all the other Balancer liquidity. All you need to integrate a pool is first and second order differentiable `spotPriceAfterSwap` functions (differentiable either numerically or analytically).
+As the variety of [Balancer Pools](broken-reference/) grows, the SOR grows too! The SOR keeps expanding as new pool types that use different math under the hood are added. This ensures that all pools in the Balancer ecosystem can support trades. By integrating with the SOR, any custom pool built on Balancer can benefit from all the other Balancer liquidity. All you need to integrate a pool is first and second order differentiable `spotPriceAfterSwap` functions (differentiable either numerically or analytically).
 
 ## Taking Gas Into Account
 
@@ -31,6 +33,6 @@ The optimization mechanism finds the path through a set of Balancer Pools with t
 
 ### Multiple Pools, Same Spot Price
 
-In order to get the best price for a trader, the SOR is designed to create an arbitrage-free state between the paths it's using. In order to achieve this, **each path the SOR routes through needs to provide the same spot price after the swap has completed.**&#x20;
+In order to get the best price for a trader, the SOR is designed to create an arbitrage-free state between the paths it's using. In order to achieve this, **each path the SOR routes through needs to provide the same spot price after the swap has completed.**
 
 ![](<../.gitbook/assets/targetSP (1).png>)

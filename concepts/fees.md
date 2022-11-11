@@ -1,25 +1,29 @@
 # Fees
 
+{% hint style="info" %}
+<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% endhint %}
+
 ## Overview
 
-There are a few different types of fees on Balancer, each collected to support a healthy ecosystem. For example, Liquidity Providers collect swap fees as users trade with pools; this acts as an incentive for them to continue providing liquidity, which is useful to facilitate trades.&#x20;
+There are a few different types of fees on Balancer, each collected to support a healthy ecosystem. For example, Liquidity Providers collect swap fees as users trade with pools; this acts as an incentive for them to continue providing liquidity, which is useful to facilitate trades.
 
 ## Swap Fees
 
-Traders pay swap fees when they trade with a pool. For pools that inherit from [BasePool](https://github.com/balancer-labs/balancer-v2-monorepo/blob/6015118eefd96e3d0aeb8450f011422e3375ab01/pkg/pool-utils/contracts/BasePool.sol#L75-L76), these fees can be customized with a minimum value of 0.0001% and a maximum value of 10%.&#x20;
+Traders pay swap fees when they trade with a pool. For pools that inherit from [BasePool](https://github.com/balancer-labs/balancer-v2-monorepo/blob/6015118eefd96e3d0aeb8450f011422e3375ab01/pkg/pool-utils/contracts/BasePool.sol#L75-L76), these fees can be customized with a minimum value of 0.0001% and a maximum value of 10%.
 
-The fees ultimately go to Liquidity Providers in exchange for them putting their tokens in the pool to facilitate trades. Trade fees are collected at the time of a swap, and it goes directly into the pool, growing the pool's balance. For a trade with a given $$inputToken$$ and $$outputToken$$, the amount collected by the pool as a fee is $$Amount_{fee} = Amount_{inputToken} * swapFee$$. As the pool collects fees, **Balancer Pool Tokens automatically collect fees** because they represent a **proportional share of the pool.**&#x20;
+The fees ultimately go to Liquidity Providers in exchange for them putting their tokens in the pool to facilitate trades. Trade fees are collected at the time of a swap, and it goes directly into the pool, growing the pool's balance. For a trade with a given $$inputToken$$ and $$outputToken$$, the amount collected by the pool as a fee is $$Amount_{fee} = Amount_{inputToken} * swapFee$$. As the pool collects fees, **Balancer Pool Tokens automatically collect fees** because they represent a **proportional share of the pool.**
 
 ### Example
 
 Let's say Alice, Bob, Chuck, and Diana all provide liquidity in the same pool starting out with a total value of $100. After some time, the pool has collected many trade fees and is now worth $200. The pool itself grows while the Liquidity Providers' proportional shares stay the same.
 
-| Person | Proportional Share  | Initial Value | Value After Trading |
-| ------ | ------------------- | ------------- | ------------------- |
-| Alice  | 50.0%               | $50           | $100                |
-| Bob    | 25.0%               | $25           | $50                 |
-| Chuck  | 12.5%               | $12.50        | $25                 |
-| Diana  | 12.5%               | $12.50        | $25                 |
+| Person | Proportional Share | Initial Value | Value After Trading |
+| ------ | ------------------ | ------------- | ------------------- |
+| Alice  | 50.0%              | $50           | $100                |
+| Bob    | 25.0%              | $25           | $50                 |
+| Chuck  | 12.5%              | $12.50        | $25                 |
+| Diana  | 12.5%              | $12.50        | $25                 |
 
 ![](<../.gitbook/assets/Screen Shot 2021-08-12 at 10.10.06 AM.png>)
 
