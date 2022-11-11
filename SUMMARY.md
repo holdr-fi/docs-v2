@@ -1,16 +1,17 @@
 # Table of contents
 
 * [Protocol Overview](README.md)
-* [Developer Docs](https://holdr.gitbook.io/dev-docs/)
+* [Developer Docs](https://dev.balancer.fi/)
 
-## Products
+## Product
 
-* [The Vault](products/the-vault.md)
-* [Balancer Pools](products/balancer-pools/README.md)
-  * [Weighted Pools](products/balancer-pools/weighted-pools.md)
-  * [Composable Stable Pools](products/balancer-pools/composable-stable-pools.md)
-  * [Liquidity Bootstrapping Pools (LBPs)](products/balancer-pools/liquidity-bootstrapping-pools-lbps.md)
-* [Smart Order Router](products/smart-order-router.md)
+* [Overview](product/overview.md)
+* [The Vault](product/the-vault.md)
+* [Pools](product/balancer-pools/README.md)
+  * [Weighted Pools](product/balancer-pools/weighted-pools.md)
+  * [Composable Stable Pools](product/balancer-pools/composable-stable-pools.md)
+  * [Liquidity Bootstrapping Pools (LBPs)](product/balancer-pools/liquidity-bootstrapping-pools-lbps.md)
+* [Smart Order Router](product/smart-order-router.md)
 
 ## Concepts
 
@@ -18,42 +19,20 @@
   * [Weighted Math](concepts/math/weighted-math.md)
   * [Stable Math](concepts/math/stable-math.md)
 * [Fees](concepts/fees.md)
-* [Features](concepts/features/README.md)
-  * [Flash Loans](concepts/features/flash-loans.md)
-  * [Asset Managers](concepts/features/asset-managers.md)
 
 ## Ecosystem
 
-* [Governance](ecosystem/governance/README.md)
-  * [Governance Process](ecosystem/governance/governance-process/README.md)
-    * [RFC/Proposal Forum Post Template](ecosystem/governance/governance-process/rfc-proposal-forum-post-template.md)
-  * [BAL Governance Token](ecosystem/governance/bal-governance-token.md)
-  * [Snapshot](ecosystem/governance/snapshot.md)
-  * [Multisig](ecosystem/governance/multisig/README.md)
-    * [Other DAO Multisigs](ecosystem/governance/multisig/other-dao-multisigs.md)
-  * [Governable Protocol Fees](ecosystem/governance/governable-protocol-fees.md)
-* [Community](ecosystem/community/README.md)
-  * [Ballers](ecosystem/community/ballers.md)
-  * [Delegation](ecosystem/community/delegation.md)
-  * [Grants](ecosystem/community/grants.md)
-* [veBAL and Gauges](ecosystem/vebal-and-gauges/README.md)
-  * [veBAL](ecosystem/vebal-and-gauges/vebal/README.md)
-    * [How veBAL Works](ecosystem/vebal-and-gauges/vebal/how-vebal-works.md)
-    * [How To Use veBAL](ecosystem/vebal-and-gauges/vebal/how-to-use-vebal.md)
-    * [How veBAL Boosting Works](ecosystem/vebal-and-gauges/vebal/how-vebal-boosting-works/README.md)
+* [Governance](ecosystem/governance.md)
+* [veHLDR and Gauges](ecosystem/vebal-and-gauges/README.md)
+  * [veHLDR](ecosystem/vebal-and-gauges/vebal/README.md)
+    * [How veHLDR Works](ecosystem/vebal-and-gauges/vebal/how-vebal-works.md)
+    * [How To Use veHLDR](ecosystem/vebal-and-gauges/vebal/how-to-use-vebal.md)
+    * [How veHLDR Boosting Works](ecosystem/vebal-and-gauges/vebal/how-vebal-boosting-works/README.md)
       * [Working Supply](ecosystem/vebal-and-gauges/vebal/how-vebal-boosting-works/working-supply.md)
       * [Calculating My Boost](ecosystem/vebal-and-gauges/vebal/how-vebal-boosting-works/calculating-my-boost.md)
-      * [Minimum veBAL for Max Boost](ecosystem/vebal-and-gauges/vebal/how-vebal-boosting-works/minimum-vebal-for-max-boost.md)
+      * [Minimum veHLDR for Max Boost](ecosystem/vebal-and-gauges/vebal/how-vebal-boosting-works/minimum-vebal-for-max-boost.md)
   * [Gauges](ecosystem/vebal-and-gauges/gauges/README.md)
     * [How Gauges Work](ecosystem/vebal-and-gauges/gauges/how-gauges-work.md)
-    * [How To Use Gauges](ecosystem/vebal-and-gauges/gauges/how-to-use-gauges.md)
-
-## Security
-
-* [Audits](security/audits.md)
-* [Bug Bounties](security/bug-bounties.md)
-* [Emergency Pause](security/emergency-pause.md)
-* [Token Compatibility](security/token-compatibility.md)
 
 ## Getting Started
 
@@ -68,7 +47,3 @@
   * [Asset Managers](getting-started/faqs/asset-managers.md)
   * [Oracles](getting-started/faqs/oracles.md)
   * [V2 in a Nutshell](getting-started/faqs/v2-in-a-nutshell.md)
-  * [V1 ➝ V2 Migration](getting-started/faqs/v1-to-v2-migration.md)
-* [Walkthroughs](getting-started/walkthroughs/README.md)
-  * [Trade](getting-started/walkthroughs/trading.md)
-  * [Invest](getting-started/walkthroughs/invest.md)

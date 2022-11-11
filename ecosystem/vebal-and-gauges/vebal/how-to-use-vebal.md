@@ -1,32 +1,28 @@
-# How To Use veBAL
+# How To Use veHLDR
 
-## Acquiring veBAL
+## Acquiring veHLDR
 
 {% hint style="warning" %}
-**One account cannot hold distinct chunks of locked veBAL with different expiration dates**.&#x20;
+**One account cannot hold distinct chunks of locked veHLDR with different expiration dates**.
 
-If you lock additional BPT to increase an existing veBAL balance, you must also choose a new expiration date for your total veBAL balance. The earliest option is the original expiration date.
+If you lock additional HPT to increase an existing veHLDR balance, you must also choose a new expiration date for your total veHLDR balance. The earliest option is the original expiration date.
 {% endhint %}
 
-To acquire veBAL, you'll need to do the following:
+To acquire veHLDR, you'll need to do the following:
 
-* Provide liquidity to the the 80/20 BAL/WETH pool on Ethereum
+* Provide liquidity to the the 80/20 HLDR/wNEAR pool on Aurora
 
 {% embed url="https://youtu.be/-1Gg7pHusD0" %}
 
-* Stake the 80/20 BAL/WETH BPT to get veBAL
-  * In doing so, you'll need to choose your lock period. The longer you lock, the more veBAL voting power/weighting you get, but the longer you must wait to unlock your BPT
+* Stake the 80/20 HLDR/wNEAR HPT to get veHLDR
+  * In doing so, you'll need to choose your lock period. The longer you lock, the more veHLDR voting power/weighting you get, but the longer you must wait to unlock your HPT
 
-{% embed url="https://youtu.be/TsaWFcc7JcQ" %}
+## Extending veHLDR Lock Period
 
-## Extending veBAL Lock Period
+* To extend your lock time, go to the veHLDR page and follow the same process as locking your 80/20 HLDR/wNEAR HPT; this time, however, you do not need provide additional 80/20 HLDR/wNEAR HPT; instead, enter a later date in the calendar selector to extend your lock period and acquire more veHLDR.
 
-* To extend your lock time, go to the veBAL page and follow the same process as locking your 80/20 BAL/WETH BPT; this time, however, you do not need provide additional 80/20 BAL/WETH BPT; instead, enter a later date in the calendar selector to extend your lock period and acquire more veBAL.
+## Reclaiming Your HPT/wNEAR HPT
 
-{% embed url="https://youtu.be/cvp1THi2oGY" %}
-
-## Reclaiming Your BAL/WETH BPT
-
-On the veBAL page, click the (-) icon in the "My locked 80BAL-20WETH" box to start unlocking your BPT from expired veBAL.
+On the veHLDR page, click the (-) icon in the "My locked 80HLDR-20wNEAR" box to start unlocking your HPT from expired veHLDR.
 
 {% embed url="https://www.youtube.com/watch?v=qzVTI7qBX_c" %}

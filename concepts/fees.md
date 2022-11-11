@@ -1,9 +1,5 @@
 # Fees
 
-{% hint style="info" %}
-<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
-{% endhint %}
-
 ## Overview
 
 There are a few different types of fees on Balancer, each collected to support a healthy ecosystem. For example, Liquidity Providers collect swap fees as users trade with pools; this acts as an incentive for them to continue providing liquidity, which is useful to facilitate trades.

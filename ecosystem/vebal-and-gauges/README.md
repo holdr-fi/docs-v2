@@ -1,18 +1,14 @@
-# veBAL and Gauges
+# veHLDR and Gauges
 
-{% hint style="info" %}
-<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
+{% hint style="warning" %}
+<mark style="color:orange;">**veHLDR and Gauges are not yet live for Hodlr**</mark>
 {% endhint %}
 
-The veBAL and Gauge system is designed to promote long-term token-holder alignment, decentralize Liquidity Mining allocation, and facilitate fair protocol revenue distribution. This system is based heavily on Curve's veCRV system.
+The veHLDR and Gauge system is designed to promote long-term token-holder alignment, decentralize Liquidity Mining allocation, and facilitate fair protocol revenue distribution. This system is based heavily on Curve's veCRV system.
 
-{% hint style="info" %}
-Looking for data from Gauges? Gauge Data lives in the [Balancer-Gauges Subgraph](https://thegraph.com/hosted-service/subgraph/balancer-labs/balancer-gauges).
-{% endhint %}
+## veHLDR Overview
 
-## veBAL Overview
-
-veBAL (vote-escrow BAL) is a vesting and yield system based on [Curve’s veCRV mechanism](https://curve.readthedocs.io/dao-vecrv.html) which locks 80/20 BAL/WETH Balancer Pool Tokens for a maximum of 1 year.
+veHLDR (vote-escrow HLDR) is a vesting and yield system based on [Curve’s veCRV mechanism](https://curve.readthedocs.io/dao-vecrv.html) which locks 80/20 wNEAR/HLDR Holdr Pool Tokens for a maximum of 1 year.
 
 {% content-ref url="vebal/" %}
 [vebal](vebal/)

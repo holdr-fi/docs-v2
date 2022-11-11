@@ -5,10 +5,6 @@ coverY: 0
 
 # Smart Order Router
 
-{% hint style="info" %}
-<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
-{% endhint %}
-
 ## Overview
 
 The Smart Order Router (SOR) finds the best prices for Balancer traders. For given input and output tokens, the SOR finds the optimal trades whether that is a direct swap in one pool, or a combination of trades hopping through multiple pools.
@@ -17,7 +13,7 @@ The Smart Order Router (SOR) finds the best prices for Balancer traders. For giv
 
 ## Utilize All the Liquidity!
 
-As the variety of [Balancer Pools](broken-reference/) grows, the SOR grows too! The SOR keeps expanding as new pool types that use different math under the hood are added. This ensures that all pools in the Balancer ecosystem can support trades. By integrating with the SOR, any custom pool built on Balancer can benefit from all the other Balancer liquidity. All you need to integrate a pool is first and second order differentiable `spotPriceAfterSwap` functions (differentiable either numerically or analytically).
+As the variety of [Balancer Pools](../products/broken-reference/) grows, the SOR grows too! The SOR keeps expanding as new pool types that use different math under the hood are added. This ensures that all pools in the Balancer ecosystem can support trades. By integrating with the SOR, any custom pool built on Balancer can benefit from all the other Balancer liquidity. All you need to integrate a pool is first and second order differentiable `spotPriceAfterSwap` functions (differentiable either numerically or analytically).
 
 ## Taking Gas Into Account
 

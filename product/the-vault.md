@@ -5,10 +5,6 @@ coverY: 0
 
 # The Vault
 
-{% hint style="info" %}
-<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
-{% endhint %}
-
 ## Overview
 
 The Vault is the core of Balancer; it is a smart contract that holds and manages all tokens in each Balancer pool. It is also the portal through which most Balancer operations (swaps/joins/exits) take place.

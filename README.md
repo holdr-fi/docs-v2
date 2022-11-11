@@ -5,29 +5,31 @@ coverY: 0
 
 # Protocol Overview
 
-{% hint style="info" %}
-<mark style="color:red;">**This page is a work in progress. If you want to help us to make this page better, please consider contributing on GitHub.**</mark>
-{% endhint %}
-
 ## Introduction
 
-Balancer is a community-driven protocol, automated portfolio manager, liquidity provider, and price sensor that empowers decentralized exchange and the automated portfolio management of tokens on the Ethereum blockchain and other EVM compatible systems.
+**Holdr is a community-driven fork of the Balancer V2 DEX on Aurora.** Holdr leverages best in-class DeFi technology to offer essential decentralized finance services and investment strategies to Aurora users.
 
-Balancer Pools contain two or more tokens that traders can swap between. Liquidity Providers put their tokens in the pools in order to collect swap fees.
 
-Balancer adopts powerful features to slash gas costs, super-charge capital efficiency, unlock arbitrage with zero-token starting capital, and open the door to custom AMMs.
 
-## Index Funds: Revolutionized
+## Services
 
-Pools with high token-counts are like index funds, allowing users to have access to broad exposure to a variety of tokens. Where Balancer differs from the traditional notion of an index fund, however, is in the fees.
+↔️ ****  **Trade**
 
-**Instead of paying fees** to have a broker rebalance the pool, the **pools collect fees** as they're continuously rebalanced by traders making swaps. Furthermore, high token-count pools have the advantage of having many token pairs, creating additional opportunities to collect trading fees.
+Holdr provides a Uniswap style trading experience, to allow for trading from one token for another. Behind the scenes, the Smart Order Router (SOR) intelligently sources liquidity from multiple pools so as to automatically figure out the best available price from all available pools.
 
-Balancer's WeightedPools are based on an [N-dimensional invariant surface](https://balancer.finance/whitepaper/), a generalization of the constant product formula described by Vitalik Buterin.
+📈  **Weighted** **Investment Pools**
 
-## Serving Everyone
+Weighted investment pools turn the concept of an index fund on its head: instead of paying fees to portfolio managers to rebalance your portfolio, you collect fees from traders, who rebalance your portfolio by following arbitrage opportunities. Each pool can contain up to 8 different tokens, where each token is assigned a weight defining what fraction of the pool is made up by each asset.&#x20;
 
-With this mechanism, needs of both Liquidity Providers and Traders are served:
+[💵](https://emojipedia.org/dollar-banknote/)   **Stable Pools**
 
-* Liquidity Providers collect trading fees, while the their portfolio is continuously rebalanced
-* Traders gain access to an open, decentralized exchange that never closes, allowing them to swap what and when they like for low fees.
+For certain assets that are expected to consistently trade at near parity (e.g. different varieties of stablecoins or synthetics), we utilize the StableSwap AMM as popularized by [Curve](https://curve.fi/). These pools allow for larger trades of these assets before encountering significant price impact.
+
+[🚜](https://emojipedia.org/tractor/)  **Farm**
+
+Staking your **liquidity provider** (LP) tokens and earn rewards.
+
+
+
+
+
