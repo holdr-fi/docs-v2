@@ -7,11 +7,7 @@ coverY: 0
 
 ## Overview
 
-Pools are the fundamental building blocks of the Balancer Protocol; they are smart contracts that define how traders can swap between tokens on Balancer. What makes Balancer Pools unique from those of other protocols is their limitless flexibility. While other exchanges have pools with constrained parameters, Balancer can accommodate pools of any composition and underlying math. Balancer's architecture allows for anyone to develop their own pool type, opening the door for customized pricing functions in trading pools.
-
-## Oracle Functionality
-
-Some pools (WeightedPool2Tokens and MetaStable Pools) have optional Oracle functionality. This means that they can be used as sources of on-chain price data.
+Pools are the fundamental building blocks of the Holdr Protocol; they are smart contracts that define how traders can swap between tokens on Holdr. What makes Holdr Pools unique from those of other protocols is their limitless flexibility. While other exchanges have pools with constrained parameters, Holdr can accommodate pools of any composition and underlying math. Holdr's architecture allows for anyone to develop their own pool type, opening the door for customized pricing functions in trading pools.
 
 ## Pools At A Glance
 
@@ -23,17 +19,9 @@ Designed for general cases, including tokens that don't necessarily have price c
 
 Ideal for soft-pegged tokens with strong correlation (ex. DAI/USDC/USDT).
 
-### [MetaStable Pools](broken-reference)
-
-Built for non-pegged tokens that maintain correlation but may slowly diverge over time, such as derivatives (ex. stETH/WETH).
-
 ### [Liquidity Bootstrapping Pools](liquidity-bootstrapping-pools-lbps.md)
 
 Ideal for shifting liquidity of one token into another (ex. AKITA/ETH).
-
-### [Managed Pools](broken-reference)
-
-Designed to have extreme flexibility to manage a dynamic fund. Features weight shifting to rebalance, swap pausing, and management fees. (ex. WSBDapp).
 
 ## Comparison
 
@@ -41,6 +29,4 @@ Designed to have extreme flexibility to manage a dynamic fund. Features weight s
 | --------------------------- | -------: | -----------: | ----------: | --------------: | ---------------------: |
 | **Weighted**                | Weighted |            8 |          No |             Yes |                     No |
 | **Stable**                  |   Stable |            5 |          No |              No |                     No |
-| **MetaStable**              |   Stable |            2 |         Yes |             Yes |                     No |
 | **Liquidity Bootstrapping** | Weighted |            4 |          No |              No |                    Yes |
-| **Managed**                 | Weighted |           50 |          No |              No |                    Yes |

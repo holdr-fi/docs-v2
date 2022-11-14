@@ -2,11 +2,11 @@
 
 ## What is the Vault?
 
-It is a single contract that holds and manages all the assets added by all Balancer pools. This allows Balancer to take full advantage of its multi-pool trading routing in order to offer the best trade routing options.
+It is a single contract that holds and manages all the assets added by all Holdr pools. This allows Holdr to take full advantage of its multi-pool trading routing in order to offer the best trade routing options.
 
 ### How does the Vault work?
 
-Balancer V2 separates the Automated Market Maker (AMM) logic from the token management and accounting. Token management/accounting is done by the Vault while the AMM logic is individual to each pool.
+Holdr separates the Automated Market Maker (AMM) logic from the token management and accounting. Token management/accounting is done by the Vault while the AMM logic is individual to each pool.
 
 Because pools are contracts external to the Vault, they can implement any arbitrary, customized AMM logic.
 

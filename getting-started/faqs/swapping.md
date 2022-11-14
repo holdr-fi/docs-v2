@@ -2,9 +2,7 @@
 
 ## How do I make my first swap?
 
-First time here? Check out [this tutorial](broken-reference) for a walkthrough on how to make your first trade.
-
-In short, you'll need:
+You'll need:
 
 * ETH to pay for gas fees
 * ERC20 tokens (or ETH) to trade
@@ -31,23 +29,23 @@ WETH is slightly cheaper. If you happen to have WETH on hand, you'll save a bit 
 
 The Smart Order Router (SOR) is a system that intelligently sources liquidity from multiple pools so as to automatically figure out the best available price from the range of available pools. You can set it to use V1 or V2 only; by default it finds the best path using both.
 
-## How is Balancer V2 more gas efficient?
+## How is Holdr more gas efficient?
 
-Balancer V2 consolidates each pool’s assets in the Vault, which holds the assets for all Balancer pools. Even though trades can be carried out in batches against multiple pools, only the final net token amounts are transferred from and to the vault, saving a significant amount of gas in the process. While previous multi-hop trades would have required as many token transfers as hops, the Vault simplifies the trade by only transferring the input and final output tokens; all other swaps are performed by adjusting pool balances within the Vault.
+Holdr consolidates each pool’s assets in the Vault, which holds the assets for all Holdr pools. Even though trades can be carried out in batches against multiple pools, only the final net token amounts are transferred from and to the vault, saving a significant amount of gas in the process. While previous multi-hop trades would have required as many token transfers as hops, the Vault simplifies the trade by only transferring the input and final output tokens; all other swaps are performed by adjusting pool balances within the Vault.
 
 ## Can I trade if I have no tokens?
 
-Yes\*\*\*\*\*, Flash Swaps allow arbitrageurs to find and swap imbalanced pools and claim the difference as profit. Since only final net amounts are transferred, arbitrage trades are also significantly easier. An arbitrageur who has no tokens but detects a price asymmetry between Balancer pools could trade DAI for MKR in pool 1, MKR for BAL in pool 2 then BAL for DAI in pool 3 and end up making a profit in DAI.
+Yes\*\*\*\*\*, Flash Swaps allow arbitrageurs to find and swap imbalanced pools and claim the difference as profit. Since only final net amounts are transferred, arbitrage trades are also significantly easier. An arbitrageur who has no tokens but detects a price asymmetry between Holdr pools could trade DAI for MKR in pool 1, MKR for BAL in pool 2 then BAL for DAI in pool 3 and end up making a profit in DAI.
 
 **\***You'll still need ETH to pay gas fees
 
 ## What happens if my transaction fails?
 
-Unfortunately, if your transaction fails you will lose your gas fees. Miners collect these gas fees when attempting to execute your trade; they are not collected by Balancer.
+Unfortunately, if your transaction fails you will lose your gas fees. Miners collect these gas fees when attempting to execute your trade; they are not collected by Holdr.
 
 ## What are User Balances?
 
-User Balances are tokens that you have inside the Balancer Vault. You can supply the Vault with tokens, and once they're inside, you'll be able to trade without needing to move ERC20 tokens, saving you a lot of money on gas fees. The only ERC20 token transfers you need to perform are when you're initially putting your tokens in the Vault and withdrawing them later.
+User Balances are tokens that you have inside the Holdr Vault. You can supply the Vault with tokens, and once they're inside, you'll be able to trade without needing to move ERC20 tokens, saving you a lot of money on gas fees. The only ERC20 token transfers you need to perform are when you're initially putting your tokens in the Vault and withdrawing them later.
 
 For instance, if you want to join five two-token pools, each containing WETH, you could first transfer the total amount of WETH required to your user balance. Then when you joined each pool, it would pull the WETH from your user balance, and the other tokens from your wallet - unless you'd previously deposited those as well.
 

@@ -4,12 +4,12 @@
 
 There are a few modifications that set veHLDR apart:
 
-* Instead of locking pure HLDR, **users obtain** veHLDR **by locking** [**80/20 HLDR/wNEAR**](https://app.balancer.fi/#/pool/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56000200000000000000000014) **Balancer Pool Tokens** (HPTs). This ensures that even if a large portion of HLDR tokens are locked, there is deep trading liquidity.
+* Instead of locking pure HLDR, **users obtain** veHLDR **by locking** [**80/20 HLDR/wNEAR**](https://app.balancer.fi/#/pool/0x5c6ee304399dbdb9c8ef030ab642b10820db8f56000200000000000000000014) **Holdr Pool Tokens** (HPTs). This ensures that even if a large portion of HLDR tokens are locked, there is deep trading liquidity.
 * **veHLDR's maximum locking period is 1 year**, a decrease from veCRV's 4 year period. The minimum locking period is 1 week. DeFi moves quickly, and in the event governance decides to use a new voting system, this allows for a shorter, but still sufficiently long, waiting period to transition.
 
 ## Voting Power
 
-All votes, whether on-chain or on [Snapshot](https://vote.balancer.fi/#/), consider veHLDR voting power. In addition to typical DAO votes, veHLDR is used to vote on Liquidity Mining Distribution with [Gauges](../gauges/).
+All votes, whether on-chain or on Snapshot, consider veHLDR voting power. In addition to typical DAO votes, veHLDR is used to vote on Liquidity Mining Distribution with [Gauges](../gauges/).
 
 Voting power scales linearly with amount of BPT locked and with amount of remaining lock time.
 
