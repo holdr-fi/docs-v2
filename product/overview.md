@@ -8,7 +8,7 @@ Holdr adopts powerful features to slash gas costs, super-charge capital efficien
 
 ## Index Funds: Revolutionized
 
-Pools with high token-counts are like index funds, allowing users to have access to broad exposure to a variety of tokens. Where Balancer differs from the traditional notion of an index fund, however, is in the fees.
+Pools with high token-counts are like index funds, allowing users to have access to broad exposure to a variety of tokens. Where Holdr differs from the traditional notion of an index fund, however, is in the fees.
 
 **Instead of paying fees** to have a broker rebalance the pool, the **pools collect fees** as they're continuously rebalanced by traders making swaps. Furthermore, high token-count pools have the advantage of having many token pairs, creating additional opportunities to collect trading fees.
 

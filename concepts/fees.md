@@ -2,13 +2,13 @@
 
 ## Overview
 
-There are a few different types of fees on Balancer, each collected to support a healthy ecosystem. For example, Liquidity Providers collect swap fees as users trade with pools; this acts as an incentive for them to continue providing liquidity, which is useful to facilitate trades.
+There are a few different types of fees on Holdr, each collected to support a healthy ecosystem. For example, Liquidity Providers collect swap fees as users trade with pools; this acts as an incentive for them to continue providing liquidity, which is useful to facilitate trades.
 
 ## Swap Fees
 
 Traders pay swap fees when they trade with a pool. For pools that inherit from [BasePool](https://github.com/balancer-labs/balancer-v2-monorepo/blob/6015118eefd96e3d0aeb8450f011422e3375ab01/pkg/pool-utils/contracts/BasePool.sol#L75-L76), these fees can be customized with a minimum value of 0.0001% and a maximum value of 10%.
 
-The fees ultimately go to Liquidity Providers in exchange for them putting their tokens in the pool to facilitate trades. Trade fees are collected at the time of a swap, and it goes directly into the pool, growing the pool's balance. For a trade with a given $$inputToken$$ and $$outputToken$$, the amount collected by the pool as a fee is $$Amount_{fee} = Amount_{inputToken} * swapFee$$. As the pool collects fees, **Balancer Pool Tokens automatically collect fees** because they represent a **proportional share of the pool.**
+The fees ultimately go to Liquidity Providers in exchange for them putting their tokens in the pool to facilitate trades. Trade fees are collected at the time of a swap, and it goes directly into the pool, growing the pool's balance. For a trade with a given $$inputToken$$ and $$outputToken$$, the amount collected by the pool as a fee is $$Amount_{fee} = Amount_{inputToken} * swapFee$$. As the pool collects fees, **Holdr Pool Tokens automatically collect fees** because they represent a **proportional share of the pool.**
 
 ### Example
 
@@ -39,4 +39,4 @@ Protocol Swap Fees are a percent of the already collected swap fees; the traders
 
 ## **Flash Loan Fees**
 
-Flash Loan fees are a type of Protocol Fee on Balancer. The fees collected as interest on flash loans go to the DAO Treasury. At deployment, flash loan fees were set to zero, and as of this writing they have not been activated by governance.
+Flash Loan fees are a type of Protocol Fee on Holdr. The fees collected as interest on flash loans go to the DAO Treasury. At deployment, flash loan fees were set to zero, and as of this writing they have not been activated by governance.

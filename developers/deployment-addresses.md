@@ -19,3 +19,5 @@
 
 
 
+Holdr uses Balancer V2 contracts without modifications, which have completed [several full audits](https://docs.balancer.fi/core-concepts/security/audits) and have a comprehensive [bug bounty](https://docs.balancer.fi/core-concepts/security/bug-bounties) program.
+
