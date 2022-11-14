@@ -34,6 +34,10 @@
   * [Gauges](ecosystem/vebal-and-gauges/gauges/README.md)
     * [How Gauges Work](ecosystem/vebal-and-gauges/gauges/how-gauges-work.md)
 
+## Developers
+
+* [Deployment Addresses](developers/deployment-addresses.md)
+
 ## Getting Started
 
 * [FAQs](getting-started/faqs/README.md)
