@@ -8,7 +8,7 @@ coverY: 0
 ## Introduction
 
 **Holdr is a Balancer-friendly and community-driven fork of the Balancer V2 DEX on Aurora.** \
-****Holdr leverages best in-class DeFi technology to offer essential decentralized finance services and investment strategies to Aurora users.
+****It leverages best in-class DeFi technology to offer essential decentralized finance services and investment strategies to Aurora users.
 
 
 
